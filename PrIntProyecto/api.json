@@ -1,0 +1,103 @@
+[
+    {
+        "id": 1,
+        "nombre": "Amortiguador Monroe 66648",
+        "precio": "$1,371.92",
+        "marca": "Monroe",
+        "numeroparte": "66648",
+        "clasificacion": "Amortiguador",
+        "miniUrl": "http://al191573programinte.infinityfreeapp.com/productos/img/amortiguador-delantero-monroe.png"
+    },
+    
+    {
+        "id": 2,
+        "nombre": "Balata Brembo P06087N",
+        "precio": "$1,727.73",
+        "marca": " Brembo",
+        "numeroparte": " P06087N",
+        "clasificacion": " Balata",
+        "miniUrl": "http://al191573programinte.infinityfreeapp.com/productos/img/balata-bremo.png"
+    },
+    
+    {
+        "id": 3,
+        "nombre": "Balata Akebono Eur1656",
+        "precio": "$3,888.00",
+        "marca": "Marca: Akebono",
+        "numeroparte": " EUR1656",
+        "clasificacion": " Balata",
+        "miniUrl": "http://al191573programinte.infinityfreeapp.com/productos/img/balata-akebono-eur1615.png"
+    },
+    
+    {
+        "id": 4,
+        "nombre": "Balata Centric 104.16100",
+        "precio": "$2,209.95",
+        "marca": " Centric",
+        "numeroparte": " 104.16100",
+        "clasificacion": " Balata",
+        "miniUrl": "http://al191573programinte.infinityfreeapp.com/productos/img/balata-centric-104.16100.png"
+    },
+    
+    {
+        "id": 5,
+        "nombre": "Bujia Ngk Silkgr8B8S",
+        "precio": "$341.99",
+        "marca": " Ngk",
+        "numeroparte": " Silkgr8B8S",
+        "clasificacion": " Bujia",
+        "miniUrl": "http://al191573programinte.infinityfreeapp.com/productos/img/bujia-ngk.png"
+    },
+    
+    {
+        "id": 6,
+        "nombre": "Buje Horquilla Moog K201291",
+        "precio": "$980.10",
+        "marca": " Moog",
+        "numeroparte": " K201291",
+        "clasificacion": " Buje Horquilla",
+        "miniUrl": "http://al191573programinte.infinityfreeapp.com/productos/img/kbuje-horquilla-moog.png"
+    },
+    
+    {
+        "id": 7,
+        "nombre": "Caliper Centric 141.34630",
+        "precio": "$6,070.73",
+        "marca": " Centric",
+        "numeroparte": " 141.34630",
+        "clasificacion": " Caliper",
+        "miniUrl": "http://al191573programinte.infinityfreeapp.com/productos/img/caliper-centric.png"
+    },
+    
+    {
+        "id": 8,
+        "nombre": "Desengrasante Motor Ecom Eco-109",
+        "precio": "$128.77",
+        "marca": " Ecom",
+        "numeroparte": " Eco-109",
+        "clasificacion": " Desengrasante Motor",
+        "miniUrl": "http://al191573programinte.infinityfreeapp.com/productos/img/Desengrasante-motor-ecom.png"
+    },
+    
+    {
+        "id": 9,
+        "nombre": "Disco Freno Brembo 09.C117.11",
+        "precio": "$2,011.01",
+        "marca": " Brembo",
+        "numeroparte": " 09.C117.11",
+        "clasificacion": " Disco Freno",
+        "miniUrl": "http://al191573programinte.infinityfreeapp.com/productos/img/disco-freno-brembo.png"
+    },
+    
+    {
+        "id": 10,
+        "nombre": "Empaque Enfriador Aceite Elring 784.680",
+        "precio": "$713.92",
+        "marca": " Elring",
+        "numeroparte": " 784.680",
+        "clasificacion": " Empaque Enfriador Aceite",
+        "miniUrl": "http://al191573programinte.infinityfreeapp.com/productos/img/empaque-enfriador-aceite.png"
+    }
+    
+    
+    ]

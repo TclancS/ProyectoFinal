@@ -1,0 +1,90 @@
+
+/*----tipografias---*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, table, ul{
+  font-family: 'Montserrat', sans-serif;
+}
+
+button, .registro-boton, .registro-boton:hover{
+  font-family: 'Orbitron', sans-serif;
+}
+
+/*--------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.registro-body {
+    /*font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;*/
+    background-color: #f4f7f9;
+    color: #333;
+}
+
+.registro-main {
+    max-width: 600px;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.registro-titulo {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2c3e50;
+    /*font-family: 'Roboto', sans-serif;*/
+}
+
+.registro-form .registro-campo {
+    margin-bottom: 15px;
+}
+
+.registro-campo label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+    /*font-family: 'Rajdhani', sans-serif;*/
+}
+
+.registro-campo input[type="text"],
+.registro-campo input[type="email"],
+.registro-campo input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.registro-boton {
+    background-color: #E32726;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+    /*font-family: 'Poppins', sans-serif;*/
+}
+
+.registro-boton:hover {
+    background-color: #e06e13;
+}
+
+@media (max-width: 600px) {
+    .registro-main {
+        padding: 20px;
+        margin: 20px;
+    }
+}

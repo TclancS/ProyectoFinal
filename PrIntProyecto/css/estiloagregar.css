@@ -1,0 +1,155 @@
+/*----tipografias---*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, table, ul{
+  font-family: 'Montserrat', sans-serif;
+}
+
+button, .btn-elegir-foto, .btn-elegir-foto:hover, .btn-regresar, .btn-regresar:hover, .btn-submit, .btn-submit:hover {
+  font-family: 'Orbitron', sans-serif;
+}
+
+/*--------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body.registro-body {
+    /*font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;*/
+    background-color: #f4f7f9;
+    color: #333;
+}
+
+.registro-main {
+    max-width: 600px;
+    background-color: #fff;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.registro-titulo {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.registro-subtitulo {
+    font-size: 1.2em;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.registro-nota {
+    font-size: 0.9em;
+    color: #e74c3c;
+}
+
+.registro-form ul {
+    list-style: none;
+}
+
+.registro-form li {
+    margin-bottom: 15px;
+}
+
+.registro-form label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+.registro-form input[type="text"],
+.registro-form input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.registro-botones {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.btn-submit {
+    background-color: #E32726;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+    background-color: #E32726;
+}
+
+.btn-regresar {
+    background-color: #F48124;
+    color: white;
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn-regresar:hover {
+    background-color: #F48124;
+}
+
+@media (max-width: 600px) {
+    .registro-main {
+        padding: 20px;
+        margin: 20px;
+    }
+
+    .registro-botones {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .btn-submit,
+    .btn-regresar {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+.btn-elegir-foto {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #F48124;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.btn-elegir-foto:hover {
+    background-color: #F48124;
+}
+
+#nombre-archivo {
+    margin-left: 10px;
+    font-style: italic;
+    color: #555;
+}

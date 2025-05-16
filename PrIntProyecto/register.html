@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/estiloregistro.css">
+    <link rel="stylesheet" href="css/estilolista.css">
+    <title>Login</title>
+</head>
+<body class="registro-body">
+    <main>
+        <header>
+        <img src="img/parts-plus-glow2.png" height="200" id="encabezado"> <!--logo empresa-->
+    </header>
+               <div class="sticky-menu">
+            
+                <input type="checkbox" id="menu-toggle">
+                    <label for="menu-toggle" class="menu-icon">&#9776;</label>
+                        
+                    <ul class="menu">
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="sobrenosotros.html">Sobre Nosotros</a></li>
+                        <li><a href="mapas.htm">Mapa De Sitio</a></li>
+                        <li><a href="catalogoauto.php">Catalogo</a></li>
+                        <li><a href="login.html">Ingresar (Empleados)</a></li>
+                    </ul>
+            </div>
+    <main class="registro-main">
+        <h1 class="registro-titulo">Crear cuenta</h1>
+        <form class="registro-form" method="POST" action="php/registro.php">
+            <div class="registro-campo">
+                <label for="usuario">Nombre de usuario</label>
+                <input type="text" name="usuario" required>
+            </div>
+            <div class="registro-campo">
+                <label for="correo">Correo electrónico</label>
+                <input type="email" name="correo" required>
+            </div>
+            <div class="registro-campo">
+                <label for="contrasena">Contraseña</label>
+                <input type="password" name="contrasena" required>
+            </div>
+            <button class="registro-boton" type="submit" name="register">Registrarse</button>
+            <a href="listadodb.php" class="btn-agregar">Regresar</a>
+        </form>
+    </main>
+    </main>
+</body>
+
+
+</html>
